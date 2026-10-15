@@ -11,9 +11,16 @@ export default function Home() {
 
       <header className="wrap" style={{ paddingTop: 128, paddingBottom: 112 }}>
         <h1 className="display h-l">Hi, I’m Bismark.</h1>
-        <p className="lede" style={{ marginTop: 32, maxWidth: 640 }}>
-          Backend engineer in London. I build data pipelines, then break them on purpose to check they hold.
+        <p className="lede" style={{ marginTop: 32, maxWidth: 700 }}>
+          Aspiring software engineer and Computer Science graduate from the University of Surrey, based in London.
+          I’m most interested in backend systems, data pipelines and cloud infrastructure: software that has to keep
+          working when things go wrong.
         </p>
+        <p className="lede" style={{ marginTop: 20, maxWidth: 700 }}>
+          My flagship project, PulseWatch, is a real-time anomaly detection pipeline I designed, deployed on AWS and
+          tested by deliberately breaking it.
+        </p>
+        <div style={{ marginTop: 28 }}><More href="/pulsewatch">Take a look at PulseWatch</More></div>
       </header>
 
       <section className="wrap">

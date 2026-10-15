@@ -7,7 +7,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: { default: "Bismark Attatsi, backend engineer", template: "%s · Bismark Attatsi" },
-  description: "Backend engineer in London. I build data pipelines, then break them on purpose to check they hold.",
+  description: "Aspiring software engineer in London, focused on backend systems, data pipelines and cloud infrastructure.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
