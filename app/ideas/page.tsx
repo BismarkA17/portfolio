@@ -12,19 +12,9 @@ const IDEAS = [
     text: "PulseWatch uses a rolling z-score, which works but treats every hour the same. I want to try baselines that account for daily and weekly patterns, so a busy Monday morning isn’t mistaken for an incident.",
   },
   {
-    tag: "job search",
-    name: "A job-search copilot",
-    text: "A browser extension that saves a listing in one click, then keeps its status up to date from recruiter emails. The natural next step for ApplyPilot once the core is solid.",
-  },
-  {
-    tag: "matching",
-    name: "CV and job description matching",
-    text: "Show which requirements in a listing a CV actually covers, and where the gaps are, with reasons instead of a single score.",
-  },
-  {
-    tag: "cloud",
-    name: "Side projects that cost almost nothing to run",
-    text: "Infrastructure as code that spins a whole AWS environment up for a demo and tears it down after, so portfolio projects stay live without a monthly bill.",
+    tag: "music",
+    name: "An app that connects fans through music",
+    text: "I’m a big fan of The Weeknd, and half the fun of a new album is talking about it with other people. I’d like to build something that connects fans through what they actually listen to: shared listening rooms for release nights, and a way to find people near you who are going to the same show.",
   },
   {
     tag: "machine learning",
