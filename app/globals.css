@@ -146,3 +146,10 @@ h1, h2, h3, p { margin: 0; }
   .chart-line { stroke-dashoffset: 0; }
   .chart-spike { opacity: 1; }
 }
+
+/* analytics */
+.bar { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); transition: transform 0.9s var(--ease); }
+.bars-on .bar { transform: scaleY(1); }
+.shot { display: block; width: 100%; height: auto; border-radius: 20px; border: 1px solid var(--line); }
+.shot-cap { margin-top: 16px; font-size: 13px; color: var(--text-3); font-family: var(--mono); }
+@media (prefers-reduced-motion: reduce) { .bar { transform: none; } }

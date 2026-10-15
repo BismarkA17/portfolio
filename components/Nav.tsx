@@ -5,6 +5,7 @@ import { site } from "@/lib";
 
 const links = [
   { href: "/pulsewatch", label: "PulseWatch" },
+  { href: "/analytics", label: "Analytics" },
   { href: "/now", label: "Now" },
   { href: "/ideas", label: "Ideas" },
 ];
